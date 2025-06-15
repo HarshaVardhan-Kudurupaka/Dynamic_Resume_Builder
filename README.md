@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🧾 Dynamic Resume Builder
 
-## Project info
+A modern, responsive, and customizable **Dynamic Resume Builder** built with the latest frontend technologies. Generate, preview, and download resumes on the fly using a clean and intuitive UI.
 
-**URL**: https://lovable.dev/projects/3bfdc48b-d7d9-44a7-8829-5feb70116a80
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🎨 Live resume customization
+- 📄 Real-time preview
+- 🖨️ Download as PDF (powered by `jsPDF`)
+- 🌗 Dark/Light mode support
+- 📱 Responsive design for all devices
+- ⚡ Built with performance-first tools (Vite + Bun)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3bfdc48b-d7d9-44a7-8829-5feb70116a80) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Tool/Library     | Purpose                              |
+|------------------|--------------------------------------|
+| [React](https://reactjs.org/)            | Frontend framework                  |
+| [TypeScript](https://www.typescriptlang.org/)      | Static typing                       |
+| [Vite](https://vitejs.dev/)             | Frontend build tool                 |
+| [Tailwind CSS](https://tailwindcss.com/)       | Utility-first CSS framework         |
+| [ShadCN/UI](https://ui.shadcn.dev/)     | Component library                   |
+| [jsPDF](https://github.com/parallax/jsPDF)           | PDF generation                      |
+| [Bun](https://bun.sh/) *(optional)*     | Alternative JS runtime and package manager |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📁 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+.
+├── public/ # Static assets
+├── src/ # Application source code
+├── components.json # ShadCN component metadata
+├── index.html # App entry HTML
+├── tailwind.config.ts # Tailwind configuration
+├── vite.config.ts # Vite configuration
+├── tsconfig.json # TypeScript configuration
+└── package.json # Project metadata and dependencies
 
-Follow these steps:
+yaml
+Copy
+Edit
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧑‍💻 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- Node.js (or Bun)
+- npm / yarn / bun
+
+### Installation
+
+```bash
+# Using npm
+npm install
+
+# Or with bun (if using Bun)
+bun install
+Run Development Server
+bash
+Copy
+Edit
+# With npm
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+# Or with bun
+bun run dev
+Build for Production
+bash
+Copy
+Edit
+npm run build
+Preview Production Build
+bash
+Copy
+Edit
+npm run preview
+📦 PDF Export
+This project uses jsPDF and html2canvas to export the resume view to a downloadable PDF format with accurate styling and layout support.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📸 Screenshots
+Add screenshots of your UI preview here for better presentation
 
-**Use GitHub Codespaces**
+🙌 Acknowledgements
+ShadCN/UI
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vite
 
-## What technologies are used for this project?
+Tailwind CSS
 
-This project is built with:
+jsPDF
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📃 License
+This project is licensed under the MIT License.
 
-## How can I deploy this project?
+👨‍💻 Author
+Harsha Vardhan Kudurupaka
+GitHub
 
-Simply open [Lovable](https://lovable.dev/projects/3bfdc48b-d7d9-44a7-8829-5feb70116a80) and click on Share -> Publish.
+yaml
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Let me know if you want me to add badges (e.g. Vite, React, License), screenshots, or GitHub Pages deployment instructions!

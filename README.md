@@ -42,8 +42,7 @@ A modern, responsive, and customizable **Dynamic Resume Builder** built with the
 └── package.json # Project metadata and dependencies
 
 yaml
-Copy
-Edit
+
 
 ---
 
@@ -64,8 +63,6 @@ npm install
 bun install
 Run Development Server
 bash
-Copy
-Edit
 # With npm
 npm run dev
 
@@ -73,19 +70,16 @@ npm run dev
 bun run dev
 Build for Production
 bash
-Copy
-Edit
+
 npm run build
 Preview Production Build
 bash
-Copy
-Edit
+
 npm run preview
 📦 PDF Export
 This project uses jsPDF and html2canvas to export the resume view to a downloadable PDF format with accurate styling and layout support.
 
-📸 Screenshots
-Add screenshots of your UI preview here for better presentation
+
 
 🙌 Acknowledgements
 ShadCN/UI
@@ -105,5 +99,3 @@ GitHub
 
 yaml
 ---
-
-Let me know if you want me to add badges (e.g. Vite, React, License), screenshots, or GitHub Pages deployment instructions!
